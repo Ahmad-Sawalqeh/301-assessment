@@ -1,0 +1,38 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width:960px
+}
+header{
+  background: black;
+  color: white;
+  height: 100px;
+}
+
+footer{
+  background: darkgray;
+  color: black;
+  height: 100px;
+}
+
+main{
+  background: #ddd;
+  color: darkblue;
+  height: 400px;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  background: darkkhaki;
+  border: 2px solid #000;
+  margin: 5px;
+}
+li{
+    /* float: left; */
+    display: inline-block;
+    width:150px;
+    padding: 10px;
+}
